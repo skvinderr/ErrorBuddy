@@ -15,9 +15,9 @@ function App() {
       <div className="lpBg" aria-hidden="true" />
       <div className="lpContainer">
         <header className="lpTopbar">
-          <a className="lpBrand" href="#top" aria-label="MentorAgent home">
+          <a className="lpBrand" href="#top" aria-label="ErrorBuddy home">
             <span className="lpBrandMark" aria-hidden="true" />
-            MentorAgent
+            ErrorBuddy
           </a>
 
           <nav className="lpNav" aria-label="Primary">
@@ -50,7 +50,7 @@ function App() {
               </h1>
 
               <p className="lpLead">
-                MentorAgent is a VS Code extension that helps beginners debug by
+                ErrorBuddy is a VS Code extension that helps beginners debug by
                 explaining errors and giving Socratic hints—so you learn to think
                 like a senior engineer.
               </p>
@@ -100,7 +100,7 @@ function App() {
 
                 <div className="uiCard uiCardMid">
                   <div className="uiTop">
-                    <span className="uiPill">MentorAgent</span>
+                    <span className="uiPill">ErrorBuddy</span>
                     <span className="uiPill uiPillSoft">Socratic</span>
                     <span className="uiSpacer" />
                     <span className="uiCircle" />
@@ -165,7 +165,7 @@ function App() {
                     <div>
                       <div className="lpStepTitle">Detect</div>
                       <div className="lpStepText">
-                        MentorAgent spots a runtime error or failing test and
+                        ErrorBuddy spots a runtime error or failing test and
                         grabs just the relevant context.
                       </div>
                     </div>
@@ -203,10 +203,10 @@ function App() {
                 </ol>
               </div>
 
-              <div className="lpProductDemo" aria-label="MentorAgent panel mock">
+              <div className="lpProductDemo" aria-label="ErrorBuddy panel mock">
                 <div className="lpDemoCard">
                   <div className="lpDemoTop">
-                    <span className="lpDemoPill">MentorAgent</span>
+                    <span className="lpDemoPill">ErrorBuddy</span>
                     <span className="lpDemoPill lpDemoPillSoft">Socratic</span>
                     <span className="lpDemoSpacer" />
                     <span className="lpDemoDot" />
@@ -238,7 +238,7 @@ function App() {
             <div className="lpCallout">
               <div className="lpCalloutTitle">Built for learning loops</div>
               <div className="lpCalloutText">
-                MentorAgent nudges you toward the correct mental model, then
+                ErrorBuddy nudges you toward the correct mental model, then
                 checks your understanding with a quick question—so the lesson
                 sticks.
               </div>
@@ -282,7 +282,7 @@ function App() {
               <div className="lpHowCard">
                 <div className="lpHowTitle">1. Ask</div>
                 <div className="lpHowText">
-                  Run <span className="lpCodeInline">MentorAgent: Explain Error</span>{' '}
+                  Run <span className="lpCodeInline">ErrorBuddy: Explain Error</span>{' '}
                   or click the “Explain” action next to the squiggle.
                 </div>
               </div>
@@ -302,7 +302,7 @@ function App() {
               <div className="lpHowCard">
                 <div className="lpHowTitle">4. Lock it in</div>
                 <div className="lpHowText">
-                  MentorAgent summarizes the pattern so you can apply it again.
+                  ErrorBuddy summarizes the pattern so you can apply it again.
                 </div>
               </div>
             </div>
@@ -347,7 +347,7 @@ function App() {
             <div className="lpFaq">
               <details className="lpFaqItem">
                 <summary>
-                  <span>Does MentorAgent give the full solution?</span>
+                  <span>Does ErrorBuddy give the full solution?</span>
                 </summary>
                 <div className="lpFaqBody">
                   By default, no. It focuses on explanations and hints. You can
@@ -380,7 +380,7 @@ function App() {
               <div>
                 <div className="lpFinalTitle">Debug faster. Learn deeper.</div>
                 <div className="lpFinalText">
-                  Install MentorAgent and turn every error into a lesson.
+                  Install ErrorBuddy and turn every error into a lesson.
                 </div>
               </div>
               <div className="lpFinalActions">
@@ -401,7 +401,7 @@ function App() {
           </section>
 
           <footer className="lpFooter">
-            <span>© {new Date().getFullYear()} MentorAgent</span>
+            <span>© {new Date().getFullYear()} ErrorBuddy</span>
             <span className="lpFooterLinks">
               <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
               <a href="https://x.com/" target="_blank" rel="noreferrer">Twitter</a>
